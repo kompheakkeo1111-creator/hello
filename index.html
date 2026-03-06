@@ -1,11 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>The Nature Coffee</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined"/>
+
+<link rel="stylesheet" href="index.css">
 </head>
 <body>
-    <h1>Hello</h1>
+
+<div class="logo-container">
+    <div class="logo-box">
+        <span class="material-symbols-outlined logo-icon"> coffee</span>
+        THE  <span class="name"> NATURE </span>  COFFEE
+    </div>
+    <p class="tagline">wild roast · earth nature · slow brew</p>
+</div>
+
+<!-- HERO -->
+
+<section class="slideshow-container">
+    <div class="mySlides">
+        <img src="https://images.unsplash.com/photo-1509042239860-f550ce710b93?auto=format&fit=crop&w=1200">
+
+        <div class="hero-content">
+            <h1>Injoy With Nature</h1>
+            <a href="menu.html" class="btn">View Menu</a>
+        </div>
+    </div>
+
+    <div class="mySlides">
+        <img src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=1200">
+        <div class="hero-content">
+            <h1>Pure Earth Coffee</h1>
+            <a href="menu.html" class="btn">View Coffee</a>
+        </div>
+    </div>
+
+    <div class="mySlides">
+        <img src="https://tse3.mm.bing.net/th/id/OIP.nRsTvtC7me0YAyVuMP0h3wHaEJ?rs=1&pid=ImgDetMain&o=7&rm=3">
+        <div class="hero-content">
+            <h1>stay with nature coffee</h1>
+            <a href="menu.html" class="btn">View Coffee</a>
+        </div>
+    </div>
+    
+
+    <div class="dot-container">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+    </div>
+
+</section>
+
+<div class="philosophy">
+    <h2>ENJOY · WITH · NATURE · COFFEE</h2>
+    <p>Every bean carries color from the earth — forests, sky, and soil.
+    We roast slowly to preserve nature’s true flavor.</p>
+
+</div>
+
+<footer>Thank you for supporting Color Nature Coffee</footer>
+<script src="index.js"></script>
+
 </body>
 </html>
